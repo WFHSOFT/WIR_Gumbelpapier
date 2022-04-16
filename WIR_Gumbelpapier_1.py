@@ -3,7 +3,8 @@
 WIR_Gumbel_1
 ==========
 Script zum Erzeugen eines Wahrscheinlichkeitspapiers für die Gumbelverteilung
-Stand: 20.11.2018
+Stand: 16.04.2022
+Kontakt: Dr.-Ing. Wilhelm Riebe (wfhsoft@gmail.com)
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -162,8 +163,6 @@ pobabilities = OrderedDict(
 #
 #Wahrscheinlichkeitsfunktion
 def fktProb(prob):
-        #return norm.ppf(prob)
-        #(-LN(-LN(1-1/$P3)))
         return np.log(-np.log(prob))
 #
 #
@@ -191,7 +190,6 @@ X, Y = np.linspace(0, linelength, 10), np.zeros(10)
 
 plt.title('Wahrscheinlichkeitsnetz (Gumbelverteilung)', fontsize=16)
 plt.ylabel('Plotting Positions nach Gringorten', fontsize=16)
-#plt.text(-11,-4,'Entwurf: Dr.-Ing. Wilhelm Riebe \nPython35-32',   fontsize=8)
 #
 #Grid and ticks
 plt.yticks([])
