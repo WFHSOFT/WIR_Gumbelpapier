@@ -2,6 +2,7 @@
 Script zum Erzeugen eines Wahrscheinlichkeitspapiers für die Gumbelverteilung
 
 ############################################################################
+
 Copyright (c) 2022 Dr.-Ing. Wilhelm Riebe (wfhsoft@gmail.com)
 
 This program is free software: you can redistribute it and/or modify
