@@ -1,4 +1,4 @@
-# WIR_Gumbelpapier_1.py
+# WIR_Gumbelpapier
 Script zum Erzeugen eines Wahrscheinlichkeitspapiers für die Gumbelverteilung
 
 ############################################################################
