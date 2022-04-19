@@ -222,7 +222,7 @@ for xmin in ax.xaxis.get_minorticklocs():
 box = ax.get_position()
 ax.set_position([box.x0-0.05, box.y0, box.width, box.height]) #Verschiebung nach rechts
 xmin, xmax, ymin, ymax = plt.axis()
-plt.text(xmin-11,ymin+0.7,'Entwurf: Dr.-Ing. Wilhelm Riebe \nPython3.9',   fontsize=8)
+plt.text(xmin-11,ymin+0.7,'Entwurf: Dr.-Ing. Wilhelm Riebe \nPython3.10',   fontsize=8)
 x1pos0=xmin+ 42.0 #linke Y-Achse
 y2pos1=xmin +980 #978
 y2pos2=y2pos1-10
