@@ -278,5 +278,5 @@ for i, (prob, labelstyle) in enumerate(pobabilities.items()):
         fontsize=fontsize_minor, ha="right", family=family_fonts)   
 #
 plt.tight_layout()
-plt.savefig("WIR_Gumbelpapier_1.pdf")
+plt.savefig("WIR_Gumbelpapier_2.pdf")
 plt.show()
