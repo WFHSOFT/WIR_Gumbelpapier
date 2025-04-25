@@ -25,7 +25,7 @@ from collections import OrderedDict
 from matplotlib.transforms import blended_transform_factory
 #
 #Liste der Wahrscheinlichkeiten
-#1.Spalte: Quantile der Normalverteilung zur Anzeige an der Y-Achse
+#1.Spalte: Quantile der Gumbelverteilung zur Anzeige an der Y-Achse
 #2.Spalte: Beschriftung der Y-Achsen
 pobabilities = OrderedDict(
     [
