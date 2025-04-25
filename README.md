@@ -1,5 +1,5 @@
 # WIR_Gumbelpapier
-Script zum Erzeugen eines Wahrscheinlichkeitspapiers für die Gumbelverteilung
+Skript zum Erzeugen eines Wahrscheinlichkeitspapiers für die Gumbelverteilung
 
 ############################################################################
 
